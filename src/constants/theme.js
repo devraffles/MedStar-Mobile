@@ -1,4 +1,4 @@
-const COLORS = {
+const colors = {
     red: "#DF5951",
     green: "#83FFA0",
     white: "#ffffff",
@@ -10,7 +10,7 @@ const COLORS = {
     gray5: "#f1f5f4"
 };
 
-const FONT_SIZE = {
+const fontSizes = {
     xsm: 11,
     sm: 14,
     md: 16,
@@ -19,4 +19,4 @@ const FONT_SIZE = {
     xxl: 64
 }
 
-export { COLORS, FONT_SIZE }
+export { colors, fontSizes }
