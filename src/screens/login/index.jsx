@@ -1,6 +1,10 @@
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { Link } from "expo-router";
+
 import icon from "../../constants/icon.js";
+
 import { styles } from "./login.style.js";
+
 import Button from "../../components/button";
 
 function Login() {
@@ -20,7 +24,8 @@ function Login() {
                         style={styles.input}
                         secureTextEntry={true} />
                 </View>
-                <Button text="Acessar" />
+
+                <Button text="Acessar" router="/main"/>
             </View>
 
             <View style={styles.footer}>

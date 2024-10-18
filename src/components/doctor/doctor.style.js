@@ -3,11 +3,11 @@ import { colors, fontSizes } from "../../constants/theme.js";
 export const styles = {
     doctor: {
         flex: 1,
-        backgroundColor: colors.white,
+        backgroundColor: colors.gray1,
         padding: 8,
         flexDirection: 'row',
         borderWidth: 1,
-        borderColor: colors.gray4,
+        borderColor: colors.white,
         marginTop: 3,
         marginBottom: 3,
         borderRadius: 8
@@ -19,7 +19,7 @@ export const styles = {
     },
     name: {
         fontSize: fontSizes.md,
-        color: colors.gray1,
+        color: colors.green,
         marginTop: 3,
     },
     specialty: {

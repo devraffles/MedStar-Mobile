@@ -5,7 +5,6 @@ export const styles = {
         backgroundColor: colors.white,
         flex: 1,
         padding: 12,
-        paddingTop: 50
     },
     text: {
         fontSize: fontSizes.md,

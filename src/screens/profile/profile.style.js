@@ -4,13 +4,20 @@ export const styles = {
     container: {
         backgroundColor: colors.white,
         flex: 1,
-        padding: 12,
+    },
+    title: {
+        fontSize: fontSizes.sm,
+        color: colors.gray3,
     },
     text: {
         fontSize: fontSizes.md,
         color: colors.gray1,
-        marginTop: 8,
-        marginLeft: 10,
-        marginBottom: 15,
+        marginTop: 10,
+        marginLeft: 15,
+    },
+    item: {
+        borderWidth: 1,
+        borderColor: colors.gray4,
+        padding: 15
     }
 }

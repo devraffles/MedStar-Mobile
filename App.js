@@ -1,12 +1,13 @@
 import Login from "./src/screens/login";
 import Account from "./src/screens/account";
-import Home from "./src/screens/home";
-import Calendar from "./src/screens/calendar";
+import Main from "./src/screens/main";
+import Services from "./src/screens/services";
+import Schedule from "./src/screens/schedule";
 
 function App() {
 
   return <>
-    <Calendar />
+    <Login/>
   </>;
 }
 

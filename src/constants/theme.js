@@ -1,6 +1,6 @@
 const colors = {
     red: "#DF5951",
-    green: "#83FFA0",
+    green: "#6bff8e",
     white: "#ffffff",
 
     gray1: "#323434",
@@ -11,7 +11,7 @@ const colors = {
 };
 
 const fontSizes = {
-    xsm: 11,
+    xsm: 10,
     sm: 14,
     md: 16,
     lg: 18,
