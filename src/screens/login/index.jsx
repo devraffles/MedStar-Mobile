@@ -1,5 +1,5 @@
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
-import { Link } from "expo-router";
+
 
 import icon from "../../constants/icon.js";
 
@@ -33,9 +33,9 @@ function Login() {
                     Ainda não tem uma conta? 
                 </Text>
                 <TouchableOpacity>
-                    <Text style={styles.footerLink}>
-                        Fazer Cadastro
-                    </Text>
+                        <Text style={styles.footerLink}>
+                            Fazer Cadastro
+                        </Text>
                 </TouchableOpacity>
             </View>
 
